@@ -6,6 +6,7 @@ GTK and Win32 (Windows.h).
 1. Download source
 2. Unpack it, and type `make xx`, where xx is qt5, gtk or win32, depending on needs.
 3. After installtion type `make install`, to copy headers and libraries.
+
 **NOTE: If compiling on Windows, please use Makefile-win instead of Makefile, and specify compiler path in variable COMP_PATH.**
 ## Including
 Include ogl-xx.hpp, where xx is framework which was installed.
